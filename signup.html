@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>EspaZio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/espazio.css">
+        <link rel="stylesheet" href="css/registro.css">
+        <link rel="stylesheet" href="css/marginizer.css">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lte IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Nav -->    
+    <!--div id="nav" class="navbar navbar navbar-fixed-top" role="navigation">
+      <div id="main-nav-container" class="container">
+        <div class="navbar-header">
+          <a id="logo-menu-link" class="navbar-brand" href="http://farmup.mx"><img id="logo-menu" src="img/Logo-transparente.png" class="img-responsive"></a>
+        </div>
+      </div>
+    </div><!-- /Nav -->
+
+    <section id="registration">
+      <div class="container">
+        <div class="row seccion" style="background-color:#fff;">
+          <div class="col-sm-offset-2 col-sm-8">
+            <h1 class="w300 center">¡Bienvenido!</h1>
+            <h3 class="w300 center">Déjanos tus datos y muy pronto te contactaremos.</h3>
+
+            <form id="registration-form" role="form">
+
+              <div id="nombreFrm" class="form-group">
+                <label for="exampleInputEmail1">Nombre*</label>
+                <input type="text" class="form-control" id="nombreIn" placeholder="Nombre" minlength="2" required>
+              </div>
+
+              <div id="apellidoFrm" class="form-group">
+                <label for="exampleInputEmail1">Apellido*</label>
+                <input type="text" class="form-control" id="apellidoIn" placeholder="Apellido" minlength="2" required>
+              </div>
+
+              <div id="emailFrm" class="form-group">
+                <label for="exampleInputEmail1">Correo electrónico*</label>
+                <input type="email" class="form-control" id="emailIn" placeholder="Email" required>
+              </div>
+
+
+              <div id="ocupacionFrm" class="form-group">
+                <label for="exampleInputEmail1" style="width:100%">Servicio*</label>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-agricultor" type="radio" name="optionsRadios" id="optionsRadios1" value="Agricultor">
+                    Rento
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-restaurantero" type="radio" name="optionsRadios" id="optionsRadios1" value="Restaurantero">
+                    Busco lugar
+                  </label>
+                </div>
+                <div class="radio-inline">
+                  <label style="w300">
+                    <input id="btn-otro" type="radio" name="optionsRadios" id="optionsRadios1" value="Otro">
+                    Otro
+                  </label>
+                </div>
+                <div id="otro-input" class="hidden form-group">
+                  <input type="text" class="form-control" id="otroIn" placeholder="Chef, distribuidor, etc...">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label style="w300">
+                  Descripción de tu negocio
+                </label>
+                <textarea id="descripcionIn" class="form-control fill" rows="5"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label style="w300">
+                  ¿Tienes algún comentario?
+                </label>
+                <textarea id="comentariosIn" class="form-control fill" rows="5" style="width:100%"></textarea>
+              </div>
+
+              <button id="submit-registration" class="btn btn-primary fill" onclick="validate()">Enviar</button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer><!-- Footer -->
+      <div class="container">
+        <div class="p-40 p-btm40">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="index.html"><img id="logo-footer" src="img/logo.jpg" class="img-responsive center"></a>
+              <h3 class="w300 center">EspaZio</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- /Footer -->
+
+
+       
+
+    </body>
+</html>
