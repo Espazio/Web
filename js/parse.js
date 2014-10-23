@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	Parse.initialize("tAQjdbbuzDkARYg5sMJ6TYdNKVoZrS4FHKmkB1Ge", "l1F1C2PRoXLNDca5cs5M7eYXjG862EzNmoGlPbYF");
+	Parse.initialize("5WuiPSAi4muY3pCKIW7MtsB8Y33imI4zrK0fLxA7", "tAQjdbbuzDkARYg5sMJ6TYdNKVoZrS4FHKmkB1Ge");
 });
