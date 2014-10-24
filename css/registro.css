@@ -71,11 +71,16 @@ section{
 	color: red;
 }
 
+.col{
+	color: #CC0000;
+	border-color: #ff0000 #0000ff;
+}
+
 /* ==========================================================================
 	0. Background
    ========================================================================== */
 .background{
-	background-image: url(../img/office.jpg);
+	background-image: url(../img/test.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
