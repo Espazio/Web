@@ -1,0 +1,11 @@
+development:
+  app_id: 5WuiPSAi4muY3pCKIW7MtsB8Y33imI4zrK0fLxA7
+  master_key: l1F1C2PRoXLNDca5cs5M7eYXjG862EzNmoGlPbYF
+ 
+# test:
+#   app_id: 1234567890
+#   master_key: abcdefgh
+
+# production:
+#   app_id: 1234567890
+#   master_key: abcdefgh
